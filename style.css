@@ -41,8 +41,8 @@ header{
 #sidebar{
   position: fixed;
   top: 0;
-  right: -250px;  /* left වෙනුවට right */
-  left: auto;     /* left එක auto කරන්න */
+  right: -250px;  
+  left: auto;     
   width: 250px;
   height: 100%;
   background: #111;
@@ -51,7 +51,7 @@ header{
   padding-top: 60px;
 }
 #sidebar.active{
-  right: 0;  /* left: 0 වෙනුවට right: 0 */
+  right: 0;  
 }
 #sidebar ul{
   list-style: none;
