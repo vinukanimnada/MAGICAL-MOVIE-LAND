@@ -1,1 +1,43 @@
-# MAGICAL-MOVIE-LAND
+<!DOCTYPE html>
+<html lang="si">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>මගේ Movie Site</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Header + Menu -->
+  <header>
+    <div class="logo">SINHALA <span>CARTOONS</span></div>
+    <div class="menu-btn" onclick="toggleMenu()">☰</div>
+  </header>
+
+  <!-- Sidebar Menu -->
+  <nav id="sidebar">
+    <div class="close-btn" onclick="toggleMenu()">✕</div>
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Cartoon Movies</a></li>
+      <li><a href="#">Cartoon Series</a></li>
+      <li><a href="#">About Us</a></li>
+      <li><a href="#">Contact Us</a></li>
+    </ul>
+  </nav>
+
+  <!-- Hero Banner -->
+  <section class="hero">
+    <div class="hero-content">
+      <h1>How to Train Your Dragon | සිංහල හඬකැවූ</h1>
+      <p class="meta"><span class="imdb">IMDb: 7.9</span> 2010 <span>Cartoon Movies</span></p>
+      <p class="desc">මකරුන් සහ මිනිසුන් අතර පරම්පරා ගණනාවක සිට පැවතෙන දරුණු යුද්ධයක් මැද, වයිකින්ග්...</p>
+      <div class="buttons">
+        <button class="watch-btn">▶ WATCH NOW</button>
+        <button class="add-btn">+</button>
+      </div>
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
